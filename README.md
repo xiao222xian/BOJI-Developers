@@ -1,97 +1,97 @@
 # BOJI-Developers
 
-BOJI 团队知识库。
+The BOJI team's shared knowledge base.
 
-一个用于共同记录、整理和分享知识的仓库。我们把学习笔记、实践经验、问题解决过程和有价值的参考资料沉淀在这里，方便查找、复用和持续完善。
+A repository for recording, organizing, and sharing what we learn. We collect study notes, practical experience, troubleshooting records, and useful references so that the team can find, reuse, and improve them over time.
 
-这里以文档和知识记录为主，不是一个需要安装或运行的软件项目。目前仓库处于起步阶段，分类和内容会根据实际使用逐步补充。
+This repository focuses on documentation and knowledge sharing. It is not an application that needs to be installed or run. The knowledge base is at an early stage, and its structure and content will evolve as we use it.
 
-## 我们记录什么
+## What We Record
 
-- **学习笔记**：概念解释、阅读笔记、课程总结和学习心得。
-- **实践经验**：操作步骤、工具使用方法、项目复盘和可复用的经验。
-- **问题与解决方案**：遇到了什么问题、如何排查、最终怎样解决。
-- **参考资料**：文章、官方文档、论文、视频等链接，以及推荐理由。
-- **讨论与共识**：值得保留的讨论结论、决策背景和后续待确认事项。
+- **Study notes:** Concept explanations, reading notes, course summaries, and learning reflections.
+- **Practical experience:** Procedures, tool guides, project retrospectives, and reusable lessons.
+- **Problems and solutions:** What went wrong, how it was investigated, and how it was resolved.
+- **Reference materials:** Links to articles, official documentation, papers, and videos, with a brief explanation of why they are useful.
+- **Discussions and decisions:** Discussion summaries, decision context, and questions that still need an answer.
 
-记录不必一开始就完整。先把有价值的内容写下来，再逐步整理；尚未验证的观点和步骤，请明确标注。
+Notes do not need to be complete from the start. Capture useful information first, then refine it. Clearly mark claims and procedures that have not been verified.
 
-## 如何组织内容
+## Organizing Content
 
-以下是建议的目录结构，可随着内容增长按需建立。当前不代表所有目录或文档已经存在。
+The following is a suggested structure. Create directories as needed; this outline does not mean that every directory or document already exists.
 
 ```text
 BOJI-Developers/
-├── README.md          # 知识库说明与入口
-├── notes/             # 学习笔记，按主题分类
-├── guides/            # 操作指南与实践方法
-├── troubleshooting/   # 问题排查与解决记录
-├── resources/         # 参考资料与推荐阅读
-└── discussions/       # 讨论总结与决策记录
+├── README.md          # Overview and entry point
+├── notes/             # Study notes organized by topic
+├── guides/            # Practical guides and procedures
+├── troubleshooting/   # Problems, investigations, and solutions
+├── resources/         # References and recommended reading
+└── discussions/       # Discussion summaries and decision records
 ```
 
-整理时遵循几个简单原则：
+Keep these principles in mind:
 
-- 一篇文档尽量围绕一个主题，使用 Markdown（`.md`）格式。
-- 文件名清楚表达内容，例如 `notes/Git基础.md`、`guides/如何整理学习笔记.md`。
-- 新增内容前，先搜索是否已有相关记录；能补充现有文档时，优先补充。
-- 内容较多后，在对应目录添加索引，方便浏览和检索。
-- 失效或过时的内容注明状态，必要时补充替代方案。
+- Focus each document on one topic and use Markdown (`.md`).
+- Use descriptive filenames, such as `notes/git-basics.md` or `guides/organizing-study-notes.md`.
+- Search for existing material before adding a new document. Expand a relevant note when possible.
+- Add an index to a directory when its content becomes difficult to browse.
+- Mark outdated content and include an updated approach when available.
 
-## 开始使用
+## Getting Started
 
-### 在线阅读或编辑
+### Read or Edit on GitHub
 
-直接在 GitHub 中浏览文档。拥有协作权限后，可以通过 **Add file → Create new file** 新建笔记，或进入现有文档点击编辑按钮提交修改。
+Browse documents directly on GitHub. Once you have collaborator access, use **Add file → Create new file** to add a note, or open an existing document and use the edit button to propose changes.
 
-建议通过新分支和 Pull Request（合并请求）提交修改，让其他成员方便查看和讨论。
+We recommend submitting changes through a new branch and a pull request so that other members can review and discuss them.
 
-### 下载到本地
+### Work Locally
 
-如果习惯在本地编辑，可以先安装 Git，然后执行：
+If you prefer editing locally, install Git and run:
 
 ```bash
 git clone https://github.com/xiao222xian/BOJI-Developers.git
 cd BOJI-Developers
 ```
 
-使用自己熟悉的 Markdown 编辑器打开即可，无需安装项目依赖或启动服务。
+Open the repository in your preferred Markdown editor. No project dependencies or running services are required.
 
-## 一篇笔记可以怎么写
+## Suggested Note Template
 
-可以参考下面的结构，根据内容删减，不需要每一项都填写。
+Use the following structure as a starting point. Adapt it to the topic and omit sections that are not relevant.
 
 ```markdown
-# 文档标题
+# Document Title
 
-更新时间：YYYY-MM-DD
-状态：草稿 / 已验证 / 待更新
+Last updated: YYYY-MM-DD
+Status: Draft / Verified / Needs update
 
-## 背景
-为什么记录这个主题？适用于什么场景？
+## Background
+Why is this topic worth recording? When does it apply?
 
-## 核心内容
-关键概念、结论、操作步骤或实践经验。
+## Main Content
+Key concepts, findings, steps, or practical lessons.
 
-## 示例与验证
-具体示例、验证方式，以及适用条件或局限。
+## Examples and Verification
+Examples, verification methods, applicable conditions, and limitations.
 
-## 待确认事项
-尚未验证的问题，或需要继续补充的内容。
+## Open Questions
+Unverified points or information that still needs to be added.
 
-## 参考来源
-原文链接、作者、文档版本或访问日期。
+## References
+Source links, authors, document versions, or access dates.
 ```
 
-## 参与贡献
+## Contributing
 
-欢迎补充新知识、修正文档、完善示例和更新失效链接。
+Contributions are welcome: add new knowledge, correct documentation, improve examples, or update broken links.
 
-需要直接向本仓库推送分支时，请联系仓库负责人获取协作权限。没有推送权限，也可以 Fork 本仓库后发起 Pull Request，或通过 Issue 提出建议。
+Contact the repository owner for collaborator access if you need to push branches directly to this repository. Without push access, you can fork the repository and open a pull request, or suggest improvements through an issue.
 
-### 本地贡献流程
+### Local Contribution Workflow
 
-先确认本地修改已妥善保存，再同步默认分支并创建一个专注于本次修改的分支：
+Make sure any local changes are safely saved before switching branches. Sync the default branch, then create a focused branch for your update:
 
 ```bash
 git switch main
@@ -99,45 +99,45 @@ git pull --ff-only origin main
 git switch -c docs/short-description
 ```
 
-完成编辑后，检查改动，只提交本次需要的文件：
+After editing, review your changes and stage only the files you intend to include:
 
 ```bash
 git diff
-git add <本次修改的文件路径>
-git commit -m "docs: 简要说明本次记录或修改"
+git add <paths-to-changed-files>
+git commit -m "docs: describe the knowledge added or updated"
 git push -u origin docs/short-description
 ```
 
-然后在 GitHub 上创建 Pull Request，说明：
+Then open a pull request on GitHub and explain:
 
-- 新增或修改了什么知识。
-- 为什么需要这次修改。
-- 内容依据是什么，是否经过实际验证。
-- 是否存在需要其他成员确认的部分。
+- What knowledge you added or changed.
+- Why the change is useful.
+- What sources support it and whether it has been verified in practice.
+- Which points still need review or confirmation from other members.
 
-### 内容约定
+### Content Guidelines
 
-- 尽量用自己的话整理，引用内容时注明来源。
-- 区分事实、个人经验和推测，不把未经验证的结论写成确定事实。
-- 工具或技术相关记录，尽量注明适用版本、环境和更新时间。
-- AI 辅助整理的内容也需要人工核对，特别是引用、命令和关键结论。
-- 保持修改范围清晰，避免在同一次提交中混入大量无关内容。
+- Write in your own words where possible and credit your sources.
+- Distinguish facts, personal experience, and assumptions. Do not present unverified conclusions as established facts.
+- For technical notes, include relevant versions, environments, and update dates.
+- Review AI-assisted content, especially citations, commands, and key conclusions.
+- Keep contributions focused and avoid combining many unrelated changes in one submission.
 
-## 公开内容与隐私
+## Public Content and Privacy
 
-**本仓库为公开仓库，任何人都可以查看其中的内容和提交历史。**
+**This is a public repository. Anyone can view its contents and commit history.**
 
-请勿上传密码、API Key、访问令牌、真实账号信息、个人隐私、客户资料，以及未经允许公开的内部文档。示例使用虚构或脱敏数据；分享外部资料时优先提供原始链接，不擅自转载受版权保护的全文。
+Do not upload passwords, API keys, access tokens, private account details, personal information, client data, or internal documents that have not been approved for public sharing. Use fictional or sanitized data in examples. Link to original resources rather than reproducing copyrighted materials in full without permission.
 
-提交前，请检查正文、附件、截图和链接中是否包含敏感信息。
+Before submitting, check document text, attachments, screenshots, and links for sensitive information.
 
-## 后续整理方向
+## Roadmap
 
-1. 根据第一批笔记确定常用分类。
-2. 逐步补充各主题的索引和入门资料。
-3. 定期合并重复内容、检查失效链接、更新过时结论。
-4. 根据实际协作需要完善记录模板和维护方式。
+1. Establish useful categories based on the first set of notes.
+2. Add topic indexes and introductory resources over time.
+3. Regularly consolidate duplicate content, check broken links, and update outdated information.
+4. Refine templates and maintenance practices based on the team's needs.
 
-## 许可
+## License
 
-本仓库暂未添加许可证。公开可见不代表授予任意转载或再分发的许可。知识库内容的使用方式及代码示例的许可，由仓库负责人后续明确；第三方引用材料遵循其原有许可与署名要求。
+No license has been added yet. Public visibility does not by itself grant permission to freely republish or redistribute the material. The repository owner will clarify licensing for the knowledge base and any code examples. Third-party materials remain subject to their original licenses and attribution requirements.
