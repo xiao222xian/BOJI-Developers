@@ -1,4 +1,6 @@
-# 知识库
+# BOJI-Developers
+
+BOJI 团队知识库。
 
 一个用于共同记录、整理和分享知识的仓库。我们把学习笔记、实践经验、问题解决过程和有价值的参考资料沉淀在这里，方便查找、复用和持续完善。
 
@@ -19,7 +21,7 @@
 以下是建议的目录结构，可随着内容增长按需建立。当前不代表所有目录或文档已经存在。
 
 ```text
-knowledge-base-management/
+BOJI-Developers/
 ├── README.md          # 知识库说明与入口
 ├── notes/             # 学习笔记，按主题分类
 ├── guides/            # 操作指南与实践方法
@@ -49,8 +51,8 @@ knowledge-base-management/
 如果习惯在本地编辑，可以先安装 Git，然后执行：
 
 ```bash
-git clone https://github.com/xiao222xian/knowledge-base-management.git
-cd knowledge-base-management
+git clone https://github.com/xiao222xian/BOJI-Developers.git
+cd BOJI-Developers
 ```
 
 使用自己熟悉的 Markdown 编辑器打开即可，无需安装项目依赖或启动服务。
